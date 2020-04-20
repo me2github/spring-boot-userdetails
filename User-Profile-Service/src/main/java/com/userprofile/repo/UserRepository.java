@@ -1,0 +1,11 @@
+package com.userprofile.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.userprofile.model.UserDetail;
+
+@Repository
+public interface UserRepository extends JpaRepository<UserDetail, Long> {
+
+}
